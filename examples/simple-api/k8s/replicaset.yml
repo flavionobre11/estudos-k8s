@@ -23,3 +23,12 @@ spec:
               value: "3000"
             - name: TEST_ENV
               value: "test"
+          # livenessProbe:
+          #   httpGet:
+          #     path: /health
+          #     port: 3000
+          #     httpHeaders:
+          #       - name: Content-Type
+          #         value: text/plain
+          #   periodSeconds: 1
+          #   failureThreshold: 2
