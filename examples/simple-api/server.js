@@ -27,7 +27,7 @@ const startCounting = () => {
   let counter = 0;
   setInterval(() => {
     counter++;
-    if(counter % 10 === 0){
+    if(counter % 3 === 0 || counter % 7 === 0){
       statusCode = 500;
       return;
     }

@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: simple-api
-          image: fnobre11/sample-api-k8s:1.0.0
+          image: fnobre11/sample-api-k8s:1.1.0
           env:
             - name: PORT
               value: "3000"
